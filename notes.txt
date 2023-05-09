@@ -1,0 +1,6 @@
+
+
+
+# Diverse:
+- to run only 1 test just add ".only";
+ it.only('the test description', () => {
