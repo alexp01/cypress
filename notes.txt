@@ -1,4 +1,6 @@
-
+https://www.w3schools.com/js/js_events.asp
+https://learn.cypress.io/testing-your-first-application/app-install-and-overview#app-overview
+https://example.cypress.io/
 
 
 # Diverse:
