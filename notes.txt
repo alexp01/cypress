@@ -6,3 +6,26 @@ https://example.cypress.io/
 # Diverse:
 - to run only 1 test just add ".only";
  it.only('the test description', () => {
+ 
+- running cypress from VisualStudioCode
+npx cypress open
+
+- store elements in variables
+		//let resto_button = cy.get('.mainlevel-nav').eq(1)
+        //resto_button.should("exist").contains("Restaurant").click()
+        //resto_button.invoke('attr', 'id').should('eq', 'active_menu-nav') 
+		
+		// The above lines also work even if its should not.
+		
+        cy.get(".mainlevel-nav").eq(1).then(($btn) => {
+            const cls = $btn.attr("class")
+            cy.wrap($btn).contains("Restaurant").click()
+            console.log(cls)
+          })
+
+# Storing rows:
+cy.get("table").find("tr").as("rows")
+cy.get("@rows")  // this can then be used as an array
+
+#Logs:
+cy.log() or console.log()
