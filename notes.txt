@@ -2,6 +2,10 @@ https://www.w3schools.com/js/js_events.asp
 https://learn.cypress.io/testing-your-first-application/app-install-and-overview#app-overview
 https://example.cypress.io/
 
+https://docs.cypress.io/guides/overview/why-cypress
+
+https://github.com/cypress-io/cypress-realworld-testing-course-app/tree/start
+
 
 # Diverse:
 - to run only 1 test just add ".only";
