@@ -6,6 +6,8 @@ https://docs.cypress.io/guides/overview/why-cypress
 
 https://github.com/cypress-io/cypress-realworld-testing-course-app/tree/start
 
+REST
+https://dev.to/murillowelsi/api-testing-with-cypress-part-2-creating-your-tests-270i
 
 # Diverse:
 - to run only 1 test just add ".only";
